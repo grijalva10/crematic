@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include crematic *.css
+recursive-include crematic *.csv
+recursive-include crematic *.html
+recursive-include crematic *.ico
+recursive-include crematic *.js
+recursive-include crematic *.json
+recursive-include crematic *.md
+recursive-include crematic *.png
+recursive-include crematic *.py
+recursive-include crematic *.svg
+recursive-include crematic *.txt
+recursive-exclude crematic *.pyc
