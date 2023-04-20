@@ -9,7 +9,20 @@
  "engine": "InnoDB",
  "field_order": [
   "property_name",
-  "property_type"
+  "property_type",
+  "address",
+  "city",
+  "state",
+  "postal_code",
+  "county",
+  "country",
+  "apn",
+  "column_break_qrzb",
+  "owner_id",
+  "owner_business",
+  "gla",
+  "land_area",
+  "description"
  ],
  "fields": [
   {
@@ -23,11 +36,75 @@
    "fieldname": "property_type",
    "fieldtype": "Data",
    "label": "Property Type"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "postal_code",
+   "fieldtype": "Data",
+   "label": "Postal Code"
+  },
+  {
+   "fieldname": "county",
+   "fieldtype": "Data",
+   "label": "County"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "apn",
+   "fieldtype": "Data",
+   "label": "APN"
+  },
+  {
+   "fieldname": "column_break_qrzb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "owner_id",
+   "fieldtype": "Data",
+   "label": "Owner Contact"
+  },
+  {
+   "fieldname": "owner_business",
+   "fieldtype": "Data",
+   "label": "Owner Business"
+  },
+  {
+   "fieldname": "gla",
+   "fieldtype": "Float",
+   "label": "GLA"
+  },
+  {
+   "fieldname": "land_area",
+   "fieldtype": "Float",
+   "label": "Land Area"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-20 09:24:50.259654",
+ "modified": "2023-04-20 09:40:13.503728",
  "modified_by": "Administrator",
  "module": "CREMatic",
  "name": "Property",

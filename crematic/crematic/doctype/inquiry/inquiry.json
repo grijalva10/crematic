@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-20 09:52:11.137729",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "inquiry_id",
+  "property_id",
+  "lead_id",
+  "inquiry_date",
+  "user_id",
+  "inquiry_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "inquiry_id",
+   "fieldtype": "Data",
+   "label": "inquiry_id"
+  },
+  {
+   "fieldname": "property_id",
+   "fieldtype": "Link",
+   "label": "property_id",
+   "options": "Property"
+  },
+  {
+   "fieldname": "lead_id",
+   "fieldtype": "Data",
+   "label": "lead_id"
+  },
+  {
+   "fieldname": "inquiry_date",
+   "fieldtype": "Date",
+   "label": "inquiry_date"
+  },
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Link",
+   "label": "user_id",
+   "options": "User"
+  },
+  {
+   "fieldname": "inquiry_status",
+   "fieldtype": "Select",
+   "label": "inquiry_status",
+   "options": "New\nIn Progress\nClosed"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-04-20 09:52:11.137729",
+ "modified_by": "Administrator",
+ "module": "CREMatic",
+ "name": "Inquiry",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

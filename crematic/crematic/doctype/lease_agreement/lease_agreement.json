@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-20 09:57:59.502964",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "lease_agreement_id",
+  "property_id",
+  "lead_id",
+  "start_date",
+  "end_date",
+  "rent_amount",
+  "rent_period",
+  "user_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "lease_agreement_id",
+   "fieldtype": "Data",
+   "label": "lease_agreement_id"
+  },
+  {
+   "fieldname": "property_id",
+   "fieldtype": "Link",
+   "label": "property_id",
+   "options": "Property"
+  },
+  {
+   "fieldname": "lead_id",
+   "fieldtype": "Data",
+   "label": "lead_id"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "start_date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "end_date"
+  },
+  {
+   "fieldname": "rent_amount",
+   "fieldtype": "Currency",
+   "label": "rent_amount"
+  },
+  {
+   "fieldname": "rent_period",
+   "fieldtype": "Select",
+   "label": "rent_period",
+   "options": "Monthly\nAnnually"
+  },
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Link",
+   "label": "user_id",
+   "options": "User"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-04-20 09:57:59.502964",
+ "modified_by": "Administrator",
+ "module": "CREMatic",
+ "name": "Lease Agreement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
